@@ -359,7 +359,7 @@
     - ติดตั้ง portainer CE
       ```
       #ref https://docs.portainer.io/start/install-ce/server/swarm/linux
-      curl -L https://downloads.portainer.io/ce2-21/portainer-agent-stack.yml -o portainer-agent-stack.yml 
+      curl -L https://downloads.portainer.io/ce2-19/portainer-agent-stack.yml -o portainer-agent-stack.yml 
       docker stack deploy -c portainer-agent-stack.yml portainer
       ```
     
